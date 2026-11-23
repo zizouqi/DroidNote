@@ -1,0 +1,81 @@
+baseURL: "https://zizouqi.github.io/DroidNote/"
+title: "DroidNote"
+
+defaultContentLanguage: zh-cn
+languageCode: zh-CN
+hasCJKLanguage: true
+enableRobotsTXT: true
+enableGitInfo: true
+
+module:
+  hugoVersion:
+    extended: true
+    min: "0.146.0"
+  imports:
+    - path: github.com/imfing/hextra
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+menu:
+  main:
+    - name: 手册
+      pageRef: /docs
+      weight: 1
+    - name: 关于
+      pageRef: /about
+      weight: 2
+    - name: Search
+      weight: 3
+      params:
+        type: search
+    - name: GitHub
+      weight: 4
+      url: "https://github.com/zizouqi/DroidNote"
+      params:
+        icon: github
+
+params:
+  description: "面向日常与进阶玩家的安卓手机使用与维护手册。"
+  externalLinkDecoration: true
+
+  navbar:
+    displayTitle: true
+    displayLogo: false
+    width: wide
+
+  theme:
+    default: system
+    displayToggle: true
+
+  footer:
+    enable: true
+    displayCopyright: true
+    displayPoweredBy: true
+    width: normal
+
+  displayUpdatedDate: true
+  dateFormat: "2006-01-02"
+
+  search:
+    enable: true
+    type: flexsearch
+    flexsearch:
+      index: content
+      tokenize: forward
+
+  editURL:
+    enable: true
+    base: "https://github.com/zizouqi/DroidNote/edit/main/content"
+
+  page:
+    width: normal
+    contextMenu:
+      enable: true
+
+  imageZoom:
+    enable: true
