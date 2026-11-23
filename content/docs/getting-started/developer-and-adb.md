@@ -9,9 +9,9 @@ weight: 3
 
 从 Android 官方页面下载最新的 `platform-tools` 压缩包并解压到本地固定目录，然后把该目录加入系统 `PATH`。
 
-{{< tabs items="Windows (PowerShell),macOS / Linux" >}}
+{{< tabs >}}
 
-{{< tab >}}
+{{< tab name="Windows (PowerShell)" >}}
 ```powershell
 # 验证 adb 是否可用
 adb version
@@ -21,7 +21,7 @@ adb devices
 ```
 {{< /tab >}}
 
-{{< tab >}}
+{{< tab name="macOS / Linux" >}}
 ```bash
 # 验证 adb 是否可用
 adb version

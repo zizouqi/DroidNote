@@ -7,5 +7,5 @@ weight: 40
 
 {{< cards >}}
   {{< card link="/docs/advanced/adb-cheatsheet/" title="ADB / Fastboot 常用命令速查" icon="terminal" >}}
-  {{< card link="/docs/advanced/root-and-modules/" title="Bootloader、Root 与模块安全边界" icon="lock" >}}
+  {{< card link="/docs/advanced/root-and-modules/" title="Bootloader、Root 与模块安全边界" icon="key" >}}
 {{< /cards >}}
