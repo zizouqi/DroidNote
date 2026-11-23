@@ -33,11 +33,11 @@ menu:
       weight: 3
       params:
         type: search
-    - name: GitHub
-      weight: 4
-      url: "https://github.com/zizouqi/DroidNote"
-      params:
-        icon: github
+    # - name: GitHub
+    #   weight: 4
+    #   url: "https://github.com/zizouqi/DroidNote"
+    #   params:
+    #     icon: github
 
 params:
   description: "面向日常与进阶玩家的安卓手机使用与维护手册。"
@@ -69,7 +69,7 @@ params:
       tokenize: forward
 
   editURL:
-    enable: true
+    enable: false
     base: "https://github.com/zizouqi/DroidNote/edit/main/content"
 
   page:
