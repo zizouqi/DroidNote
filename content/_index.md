@@ -12,8 +12,7 @@ layout: hextra-home
 
 <div class="hx:mt-6 hx:mb-6">
 {{< hextra/hero-headline >}}
-  DroidNote&nbsp;<br class="hx:sm:block hx:hidden" />安卓手机使用与维护手册
-{{< /hextra/hero-headline >}}
+  DroidNote&nbsp;<br class="hx:sm:block hx:hidden" />一加手机的减法手册{{< /hextra/hero-headline >}}
 </div>
 
 <div class="hx:mb-12">

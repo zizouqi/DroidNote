@@ -15,4 +15,3 @@ type: about
 
 - 文档框架：[Hugo](https://gohugo.io/) + [Hextra](https://imfing.github.io/hextra)
 - 自动构建与托管：GitHub Actions + GitHub Pages
-- 仓库地址：[zizouqi/DroidNote](https://github.com/zizouqi/DroidNote)
